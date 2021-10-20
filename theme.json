@@ -12,14 +12,59 @@
                     "name": "White"
                 },
                 {
-                    "slug": "blue",
-                    "color": "#0073AA",
-                    "name": "WordPress blue"
+                    "slug": "black",
+                    "color": "#000",
+                    "name": "Black"
                 },
                 {
                     "slug": "dark-grey",
                     "color": "#23282D",
                     "name": "Dark grey"
+                },
+                {
+                    "slug": "slug-primary-blue",
+                    "color": "#003c6c",
+                    "name": "Primary blue"
+                },
+                {
+                    "slug": "slug-primary-yellow",
+                    "color": "#fdc700",
+                    "name": "Primary yellow"
+                },
+                {
+                    "slug": "slug-secondary-blue",
+                    "color": "#006aad",
+                    "name": "Secondary blue"
+                },
+                {
+                    "slug": "slug-light-blue",
+                    "color": "#13a5dc",
+                    "name": "Light blue"
+                },
+                {
+                    "slug": "slug-blue-green",
+                    "color": "#13a5dc",
+                    "name": "Blue-green"
+                },
+                {
+                    "slug": "slug-orange",
+                    "color": "#f29813",
+                    "name": "Slug orange"
+                },
+                {
+                    "slug": "slug-light-orange",
+                    "color": "#ffbf00",
+                    "name": "Slug light orange"
+                },
+                {
+                    "slug": "slug-lime-green",
+                    "color": "#93c02d",
+                    "name": "Slug lime green"
+                },
+                {
+                    "slug": "slug-rubine-red",
+                    "color": "#da216d",
+                    "name": "Slug rubine red"
                 }
             ]
         },
