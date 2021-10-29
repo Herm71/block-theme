@@ -28,60 +28,122 @@
                     "name": "Dark grey"
                 },
                 {
-                    "slug": "slug-primary-blue",
+                    "slug": "ucsc-primary-blue",
                     "color": "#003c6c",
                     "name": "Primary blue"
                 },
                 {
-                    "slug": "slug-primary-yellow",
+                    "slug": "ucsc-primary-yellow",
                     "color": "#fdc700",
                     "name": "Primary yellow"
                 },
                 {
-                    "slug": "slug-secondary-blue",
+                    "slug": "ucsc-secondary-blue",
                     "color": "#006aad",
                     "name": "Secondary blue"
                 },
                 {
-                    "slug": "slug-light-blue",
+                    "slug": "ucsc-light-blue",
                     "color": "#13a5dc",
                     "name": "Light blue"
                 },
                 {
-                    "slug": "slug-blue-green",
+                    "slug": "ucsc-blue-green",
                     "color": "#13a5dc",
                     "name": "Blue-green"
                 },
                 {
-                    "slug": "slug-orange",
+                    "slug": "ucsc-orange",
                     "color": "#f29813",
                     "name": "Slug orange"
                 },
                 {
-                    "slug": "slug-light-orange",
+                    "slug": "ucsc-light-orange",
                     "color": "#ffbf00",
                     "name": "Slug light orange"
                 },
                 {
-                    "slug": "slug-lime-green",
+                    "slug": "ucsc-lime-green",
                     "color": "#93c02d",
                     "name": "Slug lime green"
                 },
                 {
-                    "slug": "slug-rubine-red",
+                    "slug": "ucsc-rubine-red",
                     "color": "#da216d",
                     "name": "Slug rubine red"
                 }
             ]
         },
+
         "layout": {
             "contentSize": "840px",
             "wideSize": "1100px"
+        },
+        "typography": {
+            "customLineHeight": true,
+            "fontSizes": [{
+                    "slug": "extra-small",
+                    "size": "16px",
+                    "name": "Extra small"
+                },
+                {
+                    "slug": "small",
+                    "size": "18px",
+                    "name": "Small"
+                },
+                {
+                    "slug": "normal",
+                    "size": "20px",
+                    "name": "Normal"
+                },
+                {
+                    "slug": "large",
+                    "size": "24px",
+                    "name": "Large"
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "40px",
+                    "name": "Extra large"
+                },
+                {
+                    "slug": "huge",
+                    "size": "96px",
+                    "name": "Huge"
+                },
+                {
+                    "slug": "gigantic",
+                    "size": "144px",
+                    "name": "Gigantic"
+                }
+            ],
+            "fontFamilies": [{
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                    "slug": "system-font",
+                    "name": "System Font"
+                },
+                {
+                    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+                    "slug": "helvetica-arial"
+                },
+                {
+                    "fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
+                    "slug": "geneva-verdana"
+                },
+                {
+                    "fontFamily": "Cambria, Georgia, serif",
+                    "slug": "cambria-georgia"
+                },
+                {
+                    "fontFamily": "Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif",
+                    "slug": "hoefler-times-new-roman"
+                }
+            ]
         }
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--slug-orange)"
+            "background": "var(--wp--preset--color--white)"
         }
     }
 
