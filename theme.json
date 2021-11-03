@@ -1,4 +1,5 @@
 {
+    "$schema": "https://json.schemastore.org/theme-v1.json",
     "version": 1,
     "templateParts": [{
             "name": "header",
@@ -10,6 +11,25 @@
         }
     ],
     "settings": {
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "palette": [{
+                        "name": "Black",
+                        "slug": "black",
+                        "color": "#000000"
+                    }]
+                },
+                "typography": {
+                    "fontSizes": [{
+                        "slug": "normal",
+                        "size": "20px",
+                        "name": "Normal"
+                    }],
+                    "customFontSize": false
+                }
+            }
+        },
         "color": {
             "link": true,
             "palette": [{
@@ -74,46 +94,46 @@
                 }
             ]
         },
-
         "layout": {
             "contentSize": "840px",
             "wideSize": "1100px"
         },
         "typography": {
             "customLineHeight": true,
+            "customFontSize": false,
             "fontSizes": [{
                     "slug": "extra-small",
-                    "size": "16px",
+                    "size": "1em",
                     "name": "Extra small"
                 },
                 {
                     "slug": "small",
-                    "size": "18px",
+                    "size": "1.125em",
                     "name": "Small"
                 },
                 {
                     "slug": "normal",
-                    "size": "20px",
+                    "size": "1.25em",
                     "name": "Normal"
                 },
                 {
                     "slug": "large",
-                    "size": "24px",
+                    "size": "1.5em",
                     "name": "Large"
                 },
                 {
                     "slug": "extra-large",
-                    "size": "40px",
+                    "size": "2.5em",
                     "name": "Extra large"
                 },
                 {
                     "slug": "huge",
-                    "size": "96px",
+                    "size": "6em",
                     "name": "Huge"
                 },
                 {
                     "slug": "gigantic",
-                    "size": "144px",
+                    "size": "9em",
                     "name": "Gigantic"
                 }
             ],
@@ -143,7 +163,20 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--white)"
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--ucsc-rubine-red)"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--extra-large)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--large)"
+                }
+            }
         }
     }
 
