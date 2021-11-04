@@ -43,6 +43,11 @@
                     "name": "Black"
                 },
                 {
+                    "slug": "default-text",
+                    "color": "#222",
+                    "name": "Default Text"
+                },
+                {
                     "slug": "dark-grey",
                     "color": "#23282D",
                     "name": "Dark grey"
@@ -102,6 +107,10 @@
             "customLineHeight": true,
             "customFontSize": false,
             "fontSizes": [{
+                    "slug": "teeny-tiny",
+                    "size": "0.875em",
+                    "name": "Teeny Tiny"
+                }, {
                     "slug": "extra-small",
                     "size": "1em",
                     "name": "Extra small"
@@ -123,7 +132,7 @@
                 },
                 {
                     "slug": "extra-large",
-                    "size": "2.5em",
+                    "size": "2em",
                     "name": "Extra large"
                 },
                 {
@@ -143,30 +152,52 @@
                     "name": "System Font"
                 },
                 {
-                    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
-                    "slug": "helvetica-arial"
-                },
-                {
-                    "fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
-                    "slug": "geneva-verdana"
-                },
-                {
-                    "fontFamily": "Cambria, Georgia, serif",
-                    "slug": "cambria-georgia"
-                },
-                {
-                    "fontFamily": "Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif",
-                    "slug": "hoefler-times-new-roman"
+                    "fontFamily": "Roboto, sans-serif",
+                    "slug": "roboto",
+                    "name": "Roboto"
                 }
             ]
+        },
+        "custom": {
+            "typography": {
+                "line-height": {
+                    "tiny": 1.15,
+                    "small": 1.2,
+                    "medium": 1.428571429,
+                    "normal": 1.6
+                }
+            }
         }
     },
     "styles": {
         "color": {
             "background": "var(--wp--preset--color--white)",
-            "text": "var(--wp--preset--color--ucsc-rubine-red)"
+            "text": "var(--wp--preset--color--default-text)"
+
         },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system-font)",
+            "fontSize": "var(--wp--preset--font-size--small)",
+            "textDecoration": "none",
+            "lineHeight": "var(--wp--custom--typography--line-height--medium)"
+        },
+
         "elements": {
+            "link": {
+                "color": {
+
+                    "text": "var(--wp--preset--color--ucsc-primary-blue)"
+                },
+                "border": {
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--ucsc-primary-yellow)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                }
+
+
+            },
             "h1": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--extra-large)"
@@ -174,10 +205,35 @@
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--large)"
+                    "fontSize": "var(--wp--preset--font-size--large)",
+                    "fontWeight": "400"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--large)",
+                    "fontWeight": "500"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--normal)",
+                    "fontWeight": "500"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--extra-small)",
+                    "fontWeight": "700"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--teeny-tiny)",
+                    "fontWeight": "700"
                 }
             }
         }
-    }
 
+    }
 }

@@ -32,3 +32,13 @@ function fse_tutorial_theme_scripts() {
     wp_enqueue_style( 'fse-tutorial-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'fse_tutorial_theme_scripts' );
+
+/**
+ * Enqueue Google Roboto font.
+ */
+function ucsc_add_google_fonts() {
+ 
+wp_enqueue_style( 'ucsc-google-roboto-font', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900', false ); 
+}
+ 
+add_action( 'wp_enqueue_scripts', 'ucsc_add_google_fonts' );
